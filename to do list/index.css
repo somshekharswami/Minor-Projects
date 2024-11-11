@@ -1,0 +1,74 @@
+.container{
+    margin: 0 auto;
+    max-width:500px;
+    background-color: aliceblue;
+   padding: 20px;
+   border-radius: 5px;
+   
+    
+}
+.container:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2);
+}
+h1{
+    display: flex;
+  
+    text-align: center;
+    margin-top:0 ;
+}
+
+input[type="text"]{
+    padding: 10px;
+    font-size: 16px;
+    
+    border: 1px solid #ccc;
+    border-radius: 3px solid #ccc;
+
+    margin: 5px;
+    width: 80%;
+
+
+}
+.input:hover{
+
+}
+button{
+    padding: 8px 20px;
+        background-color: #555;
+        color: #fff;
+        border: none;
+        cursor:pointer;
+}
+button:hover{
+    background-color: #333;
+}
+
+u1{list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+li{
+    padding: 8px;
+    background-color:#eee;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+li:last-child{
+    margin-bottom: 0px;
+}
+.deletetodoo{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px ;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.deletetodoo:hover{
+    background-color: #d32f2f;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(172, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2)
+
+}
+.container:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.8)
+}
+
+.box{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+   text-align: center;
+}
+button{
+   color: black;
+   background-color: rgb(131, 222, 131);
+   margin: 4px;
+   padding: 4px;
+}
+button:hover{
+    cursor: pointer;
+}

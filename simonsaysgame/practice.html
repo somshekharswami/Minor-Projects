@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js activity</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body class="bodie">
+    <h3>generate a random color</h3><br>
+
+    <button>generate a random color </button><br>
+    <br>
+     <div>this is new color</div>  
+     <br><br>
+     <br>
+
+     <form action="/aa">
+
+        <input placeholder="username">
+        <br><br>
+        <input type="password" placeholder="enter password" class="password"><br>
+        <br>
+        <button>submit</button>
+     </form>
+     <script src="practice.js" ></script> 
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Input Example</title>
+</head>
+<body>
+
+<!-- Input element for entering the name -->
+<input type="text" id="nameInput" placeholder="Enter your name" oninput="updateHeading()">
+
+<!-- H2 heading to display the entered name -->
+<h2 id="nameHeading">Your Name Will Appear Here</h2>
+
+<script>
+    // Function to update the heading with valid characters
+    function updateHeading() {
+        // Get the input element
+        var inputElement = document.getElementById("nameInput");
+
+        // Get the entered value and filter out invalid characters
+        var filteredName = inputElement.value.replace(/[^a-zA-Z ]/g, '');
+
+        // Update the heading with the filtered name
+        document.getElementById("nameHeading").innerText = filteredName;
+    }
+</script>
+
+</body>
+</html>
